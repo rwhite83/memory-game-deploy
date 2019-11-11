@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Ross White COMP 4711 Lab 3 Home Page
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/lab05_CSS.css">
+    <script src="/javascript/lab05_JS.js" defer></script>
+
+</head>
+
+<body onload="initial_hide()">
+
+    <div id="artist_app_id" class="artist_app_class">
+
+        <div class="directory" id="directory">
+            <h1>Artist Directory</h1>
+            <input type="text" id="artist_input">
+            <button id="search_artist_btn" onclick="search_artist()">Search</button>
+            <button id="add_artist_btn" onclick="hide_add_artist_div()">Add</button>
+            <br><br>
+        </div>
+
+        <form id="new_artist_div_id" class="new_artist_div_class" method="POST" action="/">
+            <input type="text" id="new_artist_name_field" name="new_artist_name_field" required maxlength="40" placeholder="Artist Name"
+                   class="artist_lookup_fields">
+            <input type="text" id="new_artist_about_field" name="new_artist_about_field" required maxlength="40" placeholder="About artist"
+                   class="artist_lookup_fields">
+            <input type="text" id="new_artist_img_field" name="new_artist_img_field" required placeholder="Image url"
+                   class="artist_lookup_fields">
+            <br>
+            <input type="submit" id="add_btn" value="Add">
+        </form>
+
+        <div id="saved_artists_div">
+        </div>
+    </div>
+
+
+    <div>
+        <button id="delete_all_btn" onclick="clearLocal()">Delete All Artists</button>
+    </div>
+
+</body>
+
+</html>
+
+<!--
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ross White COMP 4711 Lab 5 Home Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/lab05_CSS.css">
+    <script src="/javascript/lab05_JS.js" defer></script>
+</head>
+
+<body onload="initial_hide()">
+    </p>
+    <div id="artist_app_id" class="artist_app_class">
+        <div class="directory" id="directory">
+            <h1>Artist Directory</h1>
+            <form method="POST" action="/search">
+                <input type="text" id="artist_input" name="artist_input_field">'
+                <input type="submit" id="search_artist_btn" value="Search">
+            </form>
+            <button id="add_artist_btn" onclick="hide_add_artist_div()">Add</button><br><br>
+        </div>
+        <form id="new_artist_div_id" class="new_artist_div_class" method="POST" action="/">
+            <input type="text" id="new_artist_name_field" name="new_artist_name_field" required maxlength="40" placeholder="Artist Name" class="artist_lookup_fields">
+            <input type="text" id="new_artist_about_field" name="new_artist_about_field" required maxlength="40" placeholder="About artist" class="artist_lookup_fields">
+            <input type="text" id="new_artist_img_field" name="new_artist_img_field" required placeholder="Image url" class="artist_lookup_fields"><br>
+            <input type="submit" id="add_btn" value="Add">
+        </form>
+        <div id="saved_artists_div"></div>
+    </div>
+    <br><br><div><form method="POST" action="/delete_all"><input type="submit" id="add_btn" value="Delete All Artitsts"></form></div>
+</body>
+    
+    -->

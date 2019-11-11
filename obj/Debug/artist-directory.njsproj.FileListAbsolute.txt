@@ -1,0 +1,6 @@
+C:\Users\rwhit\source\repos\COMP4711\artist-directory\artist-directory\obj\Debug\artist-directory.njsprojAssemblyReference.cache
+C:\Users\rwhit\source\repos\COMP4711\artist-directory\artist-directory\obj\Debug\artist-directory.njsproj.CoreCompileInputs.cache
+C:\Users\rwhit\source\repos\COMP4711\artist-directory\artist-directory\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\rwhit\OneDrive\BCIT Term 4\COMP 4711 - Web Dev\Azure repo\artist-directory\artist-directory\obj\Debug\artist-directory.njsprojAssemblyReference.cache
+C:\Users\rwhit\OneDrive\BCIT Term 4\COMP 4711 - Web Dev\Azure repo\artist-directory\artist-directory\obj\Debug\artist-directory.njsproj.CoreCompileInputs.cache
+C:\Users\rwhit\OneDrive\BCIT Term 4\COMP 4711 - Web Dev\Azure repo\artist-directory\artist-directory\bin\Microsoft.NodejsTools.WebRole.dll

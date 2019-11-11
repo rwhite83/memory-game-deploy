@@ -1,0 +1,158 @@
+/* 
+////////////////////////////////////////////////////////////////////////
+fonts
+////////////////////////////////////////////////////////////////////////
+*/
+
+@font-face {
+    font-family: "roboto";
+    src: url('../fonts/roboto-condensed.ttf');
+}     
+
+/* 
+////////////////////////////////////////////////////////////////////////
+global by element
+////////////////////////////////////////////////////////////////////////
+*/
+
+body {
+    text-align: center;
+    font-family: "roboto";
+}
+
+p {
+    text-align: left;
+    margin-top: 0;
+}
+
+h1 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+input {
+    width: 90%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding-right: 3%;
+}
+
+/* 
+////////////////////////////////////////////////////////////////////////
+by class
+////////////////////////////////////////////////////////////////////////
+*/
+
+.directory, .artist {
+    border-style: solid;
+    border-color: grey;
+}
+
+.directory {
+    margin-bottom: 5%;
+    height: 160px;
+}
+
+.artist {
+    width: 70%;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.artist_app_class {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.artist_lookup_fields {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 150%;
+    width: 80%;
+}
+
+.new_artist_div_class {
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+}
+
+.hidden {
+    display: none;
+}
+
+.delete_btn {
+    height: 30pt;
+    width: 25%;
+    float: right;
+    margin-top: 8%;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* 
+////////////////////////////////////////////////////////////////////////
+by ID
+////////////////////////////////////////////////////////////////////////
+*/
+
+#add_artist_btn {
+    float: right;
+    margin-right: 1%;
+    height: 40pt;
+    width: 10%;
+    font-size: 150%;
+}
+
+#search_artist_btn {
+    float: right;
+    margin-right: 3%;
+    margin-left: 0.25%;
+    height: 40pt;
+    width: 15%;
+    font-size: 150%;
+}
+
+#add_btn {
+    font-size: 150%;
+    width: 40%;
+    height: 45pt;
+}
+
+#delete_all_btn {
+    font-size: 150%;
+    width: 40%;
+    height: 45pt;
+    margin-top: 3%;
+}
+
+#artist_lookup_field {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+#artist_input {
+    margin-left: 3%;
+    width: 66%;
+    font-size: 250%;
+    float: left;
+}
+
+
+
+
